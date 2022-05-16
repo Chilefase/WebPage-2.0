@@ -1,0 +1,71 @@
+{
+    "data": [{
+        "id": 1,
+        "key": "BTC+ETH",
+        "value": "BTC+ETH",
+        "expected_returns": [0.61043387, 1.22977727],
+        "covariance": [0.76576866, 0.9652329],
+        "expected_annual_returns": 123.0,
+        "annual_volatility": 96.5,
+        "sharp_ratio": 1.25,
+        "minimum_volatility": [{
+            "BTCUSDT": 0.9999999999999998
+        }, {
+            "ETHUSDT": 0.0
+        }]
+    }, {
+        "id": 2,
+        "key": "BTC+ETH+BNB",
+        "value": "BTC+ETH+BNB",
+        "expected_returns": [0.55136248, 1.19741627, 1.27126613],
+        "covariance": [0.66842098, 0.7863792, 0.97143647],
+        "expected_annual_returns": 122.2,
+        "annual_volatility": 74.9,
+        "sharp_ratio": 1.60,
+        "minimum_volatility": [{
+            "BTCUSDT": 0.7100557751795245
+        }, {
+            "ETHUSDT": 0.1513111474574175
+        }, {
+            "BNBUSDT": 0.138633077363058
+        }]
+    }, {
+        "id": 3,
+        "key": "BTC+ETH+BNB+XRP",
+        "value": "BTC+ETH+BNB+XRP",
+        "expected_returns": [0.57223759, 1.13361835, 1.19738883, 0.0296978],
+        "covariance": [0.81148835, 0.98463025, 1.06372212, 1.22018332],
+        "expected_annual_returns": 116.1,
+        "annual_volatility": 96.4,
+        "sharp_ratio": 1.18,
+        "minimum_volatility": [{
+            "BTCUSDT": 0.9769788063260219
+        }, {
+            "ETHUSDT": 0.0
+        }, {
+            "BNBUSDT": 0.0148809661919601
+        }, {
+            "XRPUSDT": 0.0081402274820184
+        }]
+    }, {
+        "id": 4,
+        "key": "BTC+ETH+BNB+XRP+ADA",
+        "value": "BTC+ETH+BNB+XRP+ADA",
+        "expected_returns": [0.51961346, 1.11772584, 1.14735857, 0.04674841, 0.79945302],
+        "covariance": [0.76353867, 0.96689212, 1.12205254, 1.22596426, 1.14523124],
+        "expected_annual_returns": 112.7,
+        "annual_volatility": 94.1,
+        "sharp_ratio": 1.18,
+        "minimum_volatility": [{
+            "BTCUSDT": 0.9403997975739696
+        }, {
+            "ETHUSDT": 0.0
+        }, {
+            "BNBUSDT": 0.0176330797223427
+        }, {
+            "XRPUSDT": 0.0419671227036873
+        }, {
+            "ADAUSDT": 0.0
+        }]
+    }]
+}
